@@ -1,17 +1,17 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main() 
 {
-    int n,l=0,q,r;
-    scanf("%d",&n);
-    q=n;
-    while(q>0)
+    int num, large = 0, rem = 0;
+    scanf("%d", &num);
+    while (num > 0) 
     {
-        r=q%10;
-        if(l<r)
+        rem = num % 10;
+        if (rem > large) 
         {
-            l=r;
+            large = rem;
         }
-        q=q/10;
+            num = num / 10;
     }
-    printf("%d",l);
-}
+    printf("%d
+", large);
+  }
