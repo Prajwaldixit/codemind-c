@@ -5,8 +5,8 @@ int main()
     scanf("%d",&n);
     while(n>9)
     {
-        r=n%10;
-        n=n/10;
+        r=n%10;//38%10=8
+        n=n/10;//38/10=3
         n=n+r;
     }
     printf("%d",n);
