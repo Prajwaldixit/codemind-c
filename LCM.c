@@ -1,17 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int max,a,b;
+    int a,b,i;
     scanf("%d%d",&a,&b);
-    max=(a>b)?a:b;
-    while(1)
+    int max=a>b?a:b;
+    for(i=max;;i+=max)
     {
-        if(max%a==0 && max%b==0)
+        if(i%a==0&&i%b==0)
         {
-            printf("%d",max);
+            printf("%d",i);
             break;
         }
-        max++;
-        
     }
+    
 }
