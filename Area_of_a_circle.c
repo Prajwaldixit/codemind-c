@@ -2,8 +2,9 @@
 int main()
 {
     int r;
-    float a;
+    float c;
     scanf("%d",&r);
-    a=3.14*r*r;
-    printf("%0.2f",a);
+    c=3.14*r*r;
+    printf("%0.2f",c);
+    
 }
