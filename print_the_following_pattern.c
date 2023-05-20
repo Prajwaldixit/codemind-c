@@ -5,9 +5,13 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        for(j=n;j>=1;j--)
+        for(j=1;j<=i;j++)
         {
-            printf("%d ",j);
+            if(i==j||j==1||i==n)
+            {
+            printf("*");
+            }
+            else printf(" ");
         }
         printf("
 ");
