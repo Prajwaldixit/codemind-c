@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int pal(int );
 int main()
@@ -57,4 +56,3 @@ int pal(int b)
         return 0;
     }
 }
-
